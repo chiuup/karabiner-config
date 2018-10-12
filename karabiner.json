@@ -15,11 +15,35 @@
                 },
                 "rules": [
                     {
+                        "description": "Map international1 to backslash",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "international1"
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "international3",
+                                        "modifiers": [
+                                            "option"
+                                        ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Use lang2 as switch",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "lang2"
+                                    "key_code": "lang2",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
                                 },
                                 "to": [
                                     {
@@ -40,25 +64,6 @@
                                 "to_if_alone": [
                                     {
                                         "key_code": "lang2"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Map international1 to backslash",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "international1"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "international3",
-                                        "modifiers": [
-                                            "option"
-                                        ]
                                     }
                                 ],
                                 "type": "basic"

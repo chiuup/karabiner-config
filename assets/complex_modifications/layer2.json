@@ -6,7 +6,12 @@
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "lang2"
+                        "key_code": "lang2",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
                     },
                     "to": [
                         {
@@ -40,8 +45,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "q",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -63,8 +68,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "2",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -86,8 +91,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "w",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -109,8 +114,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "1",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -132,8 +137,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "e",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -155,8 +160,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "d",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -178,8 +183,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "r",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -201,8 +206,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "f",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -224,8 +229,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "z",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -250,8 +255,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "x",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -276,8 +281,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "c",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -302,8 +307,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "v",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -328,8 +333,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "a",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -354,8 +359,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "s",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -380,8 +385,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "g",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -403,8 +408,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "t",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
@@ -426,8 +431,8 @@
                     "type": "basic",
                     "from": {
                         "key_code": "spacebar",
-                        "modifiers":{
-                            "optional":[
+                        "modifiers": {
+                            "optional": [
                                 "any"
                             ]
                         }
