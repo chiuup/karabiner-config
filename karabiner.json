@@ -509,14 +509,6 @@
                         },
                         {
                             "from": {
-                                "key_code": "lang1"
-                            },
-                            "to": {
-                                "key_code": "left_control"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "left_control"
                             },
                             "to": {
